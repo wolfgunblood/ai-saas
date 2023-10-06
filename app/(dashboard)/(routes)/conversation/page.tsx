@@ -40,7 +40,10 @@ const Conversation = (props: Props) => {
     try {
       const userMessage: ChatCompletionRequestMessage = { role: "user", content: values.prompt };
       const newMessages = [...messages, userMessage];
-      const response = await axios.post("/api/conversation", { message: newMessages })
+      console.log("Hi there")
+      const response = await axios.post("/api/conversation", { messages: newMessages })
+      // const response = await axios.get("/api/conversation")
+      console.log("Hi there 2")
 
       setMessages((current) => [...current, userMessage, response.data])
       form.reset();
