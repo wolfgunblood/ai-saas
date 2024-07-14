@@ -27,7 +27,7 @@ This tool is built using these technologies:
 - 🔰 TypeScript
 - 💠 Tailwind CSS 3
 - 🗂 Prisma Client
-- 🔥 Next Auth
+- 🔥 Clerk
 - 〰️ SWR
 - ➰ Framer Motion
 - 💢 React Icons
