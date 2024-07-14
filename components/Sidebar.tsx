@@ -67,7 +67,7 @@ const Sidebar = (props: Props) => {
                         <Image fill alt='logo' src="/logo.svg" />
                     </div>
                     <h1 className={cn("text-2xl font-bold",montserrat.className)}>
-                        Bundle
+                        Meow
                     </h1>
                 </Link>
                 <div className='space-y-2'>
