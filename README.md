@@ -9,7 +9,7 @@
 
 ## Introduction
 
-This ia an AI SAAS app.
+This is an AI SAAS app.
 I built this project to hone my full stack skills.
 
 This app lets you generate image,code,music and video.
